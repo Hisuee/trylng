@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Roboto, sans-serif;
+        }
+        .div {
+            background: pink;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #ff1493;
+        }
+        .btn {
+            height: 40px;
+            width: 100px;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            background-color: #ff69b4; /* Default button color */
+            color: #fff; /* Text color */
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #ff1493; /* Button color on hover */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="div">
+            <h1>fasfsafdsafdsfsd</h1>
+            <button type="button" class="btn" onclick="redirectToAnotherPage()">Italmeg mo</button>
+        </div>
+    </form>
+
+    <script>
+        function redirectToAnotherPage() {
+            // Redirect to another HTML page
+            window.location.href = "anivid.html";
+        }
+    </script>
+</body>
+</html>
